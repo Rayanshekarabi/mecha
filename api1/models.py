@@ -1,5 +1,20 @@
 from django.db import models
 from mongoengine import *
 
-#bia kiramo bokhor
-# na to bia ino bokhor
+connect("mecha")
+
+
+class User(DynamicDocument):
+    pass
+
+
+class Wallet(Document):
+    pass
+
+
+class Bullet(Document):
+    pass
+
+
+class profile(Document):
+    pass
